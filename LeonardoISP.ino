@@ -20,20 +20,6 @@
 // 7: Programming - In communication with the slave
 //
 //
-// Para enviar programa para o chip avr - make flash - na localizacao do ficheiro make
-/* 
-Video http://www.youtube.com/watch?v=_ZL-YNOH_jA
-MAKEFILE https://gist.github.com/holachek/3304890
-Fuses http://www.engbedded.com/fusecalc
-
----------- Para atmega328p ----------
-DEVICE     = atmega328p
-CLOCK      = 8000000
-PROGRAMMER = -c arduino -P /dev/ttyACM0 -b 19200 # se nao funcionar utilizar /dev/tty.usb* (ACM1,2,3...)
-OBJECTS    = main.o
-FUSES      = -U lfuse:w:0x62:m -U hfuse:w:0xd9:m -U efuse:w:0xff:m
-
-*/
 
 #include "pins_arduino.h"
 #define RESET     10
