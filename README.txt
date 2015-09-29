@@ -7,8 +7,8 @@ You can use arduino Leonardo to program AVR microcontrolers. Follow these steps:
 3º - Upload the file to Arduino Leonardo
 4º - Conect the microcontroler to leonardo:
 
-microcontroler AVR    Arduino Leonardo:
-  slave reset                 10
-    MOSI                     ICSP 4
-    MISO                     ICSP 1
-    SCK                      ICSP 3
+microcontroler AVR Pins:    Arduino Leonardo Pins:
+      slave reset                   10
+        MOSI                       ICSP 4
+        MISO                       ICSP 1
+        SCK                        ICSP 3
