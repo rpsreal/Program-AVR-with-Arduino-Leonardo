@@ -5,3 +5,7 @@ Program in C
 - Write in the terminal 'make flash'
 Program in assembler
 - Write in the terminal 'make asm'
+Program in Arduino
+- Select your board AVR in Arduino IDE
+- Select the programmer: Arduino as ISP
+- Upload the code to AVR
